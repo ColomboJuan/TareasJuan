@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <nav class ="navbar navbar-ligth bg-light">
+       <div class="container">
+        <a href="#" class="navbar-brand">Tareas</a>
+        </div>
+    </nav>
+    <div class="container">
+        
+        <div class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <form  id="formtarea">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Tarea" id="title">
+                            </div>
+                                <div class="form-group">
+                                <textarea placeholder="Descripción" id="description" class="form-control" cols="30" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Guardar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div id="tasks">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
