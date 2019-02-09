@@ -63,7 +63,7 @@ function getTasks(){
            <div class ="card-body">
         
  <div class="float-right custom-control custom-checkbox  ">
-  <input type="checkbox"    class="custom-control-input text-left" id="${title}">
+  <input type="checkbox"   id="${title}">
   <label class="custom-control-label"  for="${title}">Terminada</label>
 
 </div>
